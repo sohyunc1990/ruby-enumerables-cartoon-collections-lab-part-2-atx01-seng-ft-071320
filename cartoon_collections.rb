@@ -37,10 +37,7 @@ if valid_calls & planeteer_calls
 else 
   nil
 end
+puts mixed_calls[0];
 
 
-
-
-
-  
 end
