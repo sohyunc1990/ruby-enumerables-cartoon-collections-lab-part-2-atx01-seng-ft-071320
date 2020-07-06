@@ -32,13 +32,14 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
   # Return the first valid call found, or return nil if no valid calls are found
-  planteer_calls = ["Cloud!", "earth", "Wind!", "cat", "Heart!"]
+holy =[]
+
 if valid_calls & planeteer_calls
-  mixed_calls = [valid_calls & planeteer_calls]
+  holy = Array(holy).push((valid_calls & planeteer_calls))
 else 
   nil
 end
-puts mixed_calls[0][0];
 
+holy[0][0];
 
 end
